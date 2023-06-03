@@ -1,0 +1,273 @@
+/* General Rule */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+/* header style start */
+header {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.search-logo-cart {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.search-logo-cart input {
+    height: 50%;
+    border-radius:  5px 0 0 5px ;
+}
+
+button {
+    width: 2%;
+    height: 50%;
+    margin-left: -30%;
+    border-radius: 0 5px 5px 0;
+
+}
+
+button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0 5px 5px 0;
+}
+
+.title-logo {
+    width: 8%;
+    height: 100%;
+    margin-left: -15%; 
+}
+
+.title-logo h1 {
+    width: 70%;
+    height: 80%;
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 20%;
+    height: 90%;
+    /* vertical-align: middle; */
+    display: inline-block;
+}
+
+.cart-image {
+    height: 50%;
+    width: 3%;
+}
+
+.categories {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* header style ends */
+
+/* hero-image section */
+.hero-image {
+    height: 60vh;
+    background-image: url(/images/dark.jfif);
+    color: white;
+}
+
+.hero-image h1 {
+    height: 100%;
+    font-size: 50px;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+/* Hero-image section ends */
+
+
+/* product cards section */
+.product-cards {
+    height: 90vh;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    
+}
+
+.product-cards h2 {
+    height: 10%;
+    width: 100%;
+    padding-top: 1%;
+}
+.product-cards, .product-cards div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%,
+}
+
+.product-cards div {
+    height: 40%;
+    width: 48%;
+    margin: 0 auto 0 auto;
+}
+
+.product-cards div p, .product-cards div img {
+height: 100%;
+width: 49%;
+text-align: center;
+
+}
+
+.product-cards h2, .product-cards div p {
+     text-align: center;  
+}
+
+.product-cards div p {
+    padding-top: 20%;
+}
+
+/* product section ends */
+
+
+/* trending-products section */
+.trending {
+    height: 80vh;
+    column-gap: 2%;
+}
+
+.trending, .trending-products-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trending-products-header {
+    height: 13%;
+    column-gap: 5%;
+    width: 100%;
+}
+
+.trending-products-header h2 {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.trending-products-header a {
+    height: 50%;
+    width: 10%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.trending-products {
+    height: 35%;
+    width: 23%;
+    background-image: url(/images/dark.jfif);
+    color: white;
+}
+
+.trending-products p {
+    margin-top: 50%;
+
+}
+
+.trending-products p, .trending-products span {
+    display: block;
+    text-align: center;
+}
+
+/* trending products ends */
+
+/* blog section */
+
+.blog {
+    height: 50vh;
+}
+
+.wig-article {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    background-image: url(/images/dark.jfif);
+    color: white;
+}
+
+.wig-article h2 {
+    height: 100%;
+    text-align: center;
+}
+
+/* blog section ends */
+
+ /* footer */
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+ .about, .shop, .support, .Newsletter {
+    width: 20%;
+    height: 100%;
+ }
+
+ footer h3 {
+    font-size: 15px;
+ }
+
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
+ .about p {
+    height: 90%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    margin-top: 5%;
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+ }
+
+/* footer ends */
+
+
+

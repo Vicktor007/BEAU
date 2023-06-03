@@ -1,0 +1,236 @@
+/* General Rule */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+
+/* hero-image section */
+.hero-image {
+    height: 60vh;
+    background-image: url(./images/dark.jfif);
+    color: white;
+}
+
+.hero-image h1 {
+    height: 100%;
+    font-size: 50px;
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+/* Hero-image section ends */
+
+
+a {
+    text-decoration: none;
+    color: black;
+} 
+
+/* product cards section */
+.product-cards {
+    height: 90vh;
+}
+
+.product-cards h2 {
+    height: 5%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.product-cards, .product-cards div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%,
+}
+
+.product-cards div {
+    height: 40%;
+    width: 48%;
+    margin: 0 auto 0 auto;
+}
+
+.product-cards div p, .product-cards div img {
+height: 100%;
+width: 49%;
+text-align: center;
+}
+
+.product-cards h2, .product-cardsdiv p {
+     text-align: center;  
+}
+
+.product-cards div p {
+    padding-top: 20%;
+}
+
+/* product section ends */
+
+
+/* trending-products section */
+.trending {
+    height: 80vh;
+    column-gap: 2%;
+}
+
+.trending, .trending-products-header, .trending-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trending-products-header {
+    height: 10%;
+    column-gap: 10%;
+    width: 100%;
+}
+
+.trending-products-header h2 {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.trending-products-header a {
+    height: 30%;
+    width: fit-content;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.trending-products {
+    height: 35%;
+    width: 23%;
+    background-image: url(./images/dark.jfif);
+    color: white;
+    align-items: flex-end;
+}
+
+ .trending-products span {
+    display: block;
+    text-align: center;
+}
+
+/* trending products ends */
+
+/* blog section */
+
+.blog {
+    height: 50vh;
+}
+
+.wig-article {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    background-image: url(./images/dark.jfif);
+    color: white;
+}
+
+.wig-article h2 {
+    height: 100%;
+    text-align: center;
+}
+
+/* blog section ends */
+
+ /* footer */
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    background-color: black;
+    color: white;
+}
+
+ .about, .shop, .support, .Newsletter {
+    width: 20%;
+    height: 100%;
+ }
+
+ .Newsletter {
+    width: fit-content;
+ }
+
+ footer h3 {
+    font-size: 15px;
+ }
+
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
+ .about p {
+    height: 90%;
+ }
+
+ .about {
+    margin-right: 2%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    margin-top: 5%;
+    color: white; 
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+    width: 100%;
+ }
+
+ .Newsletter .subscribe-button {
+    width: 50%;
+ }
+
+/* footer ends */
+
+@media (max-width: 750px) {
+    .Newsletter input {
+        width: 90%;
+    }
+
+    .product-cards {
+        height: 150vh;
+    }
+
+    .product-cards div {
+        height: 22%;
+        width: 100%;
+    }
+
+    .product-cards .last {
+        margin-bottom: 10%;
+    }
+
+    .trending {
+        height: 110vh;
+        margin-bottom: 10%;
+    }
+
+    .trending-products {
+        width: 45%;
+        height: 22%;
+    }
+
+    .wig-article {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
