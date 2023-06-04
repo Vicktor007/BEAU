@@ -129,7 +129,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.5rem;
@@ -138,6 +138,7 @@ body {
     align-items: center;
     animation-name: animatemodal;
     animation-duration: .4s;
+    border: 1px solid red;
    }
 
    
@@ -148,7 +149,7 @@ body {
     color: #ff0000;
    
     position: absolute;
-    top: 25vh;
+    top: 0;
     left: 92vw;
     display: block;
    }

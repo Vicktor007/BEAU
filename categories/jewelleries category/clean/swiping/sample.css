@@ -14,7 +14,7 @@ body {
 .images {
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 70%;
 }
 
 
@@ -36,16 +36,16 @@ body {
 .dots {
     display: flex;
     justify-content: center;
-    margin: 5px;
     color: white;
-    height: 20%;
+    margin-top: 10px;
+    max-height: 800px;
+    border: 1px solid red;
 }
 
 
 .dots label {
-    height: 80%;
+    max-height: 800px;
     width: 30%;
-    
     border: solid #fff 3px;
     cursor: pointer;
     transition: all 0.15s ease;
@@ -55,6 +55,8 @@ body {
     align-items: center;
 
 }
+
+
 .dots label:hover {background: #fff;}
 #img1:checked ~ .m1 {
     margin-left: -0%;
@@ -72,10 +74,13 @@ body {
     display: flex;
 }
 
+
+
 @media (max-width: 600px) {
     .dots {
         display: none;
     }
+
 
     .images {
         height: 100%;
