@@ -23,6 +23,9 @@ a {
 
 main {
     height: 80vh;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 
 main, .cards {
@@ -53,10 +56,12 @@ main, .cards {
 .details, .cards{
     width: 45%;
     height: 100%;
+    border: 1px solid red;
 }
 
 .product-name, .product-price, .ratings {
-    width: 50%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .quantity-control {
