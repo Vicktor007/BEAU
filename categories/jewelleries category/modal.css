@@ -129,14 +129,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     animation-name: animatemodal;
     animation-duration: .4s;
    }
