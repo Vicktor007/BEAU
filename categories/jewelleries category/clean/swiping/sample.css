@@ -2,12 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    
 }
 body {
     height: 100vh;
-    
-    background: rgb(25,12,41);
 }
 .slider {
     width: 100%;
@@ -45,13 +43,13 @@ body {
 
 
 .dots label {
-    height: 90%;
-    width: 23%;
+    height: 80%;
+    width: 30%;
     
     border: solid #fff 3px;
     cursor: pointer;
     transition: all 0.15s ease;
-    margin: 5px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,4 +70,15 @@ body {
 #img4:checked ~ .m4 {
     margin-left: -100%;
     display: flex;
+}
+
+@media (max-width: 600px) {
+    .dots {
+        display: none;
+    }
+
+    .images {
+        height: 100%;
+    }
+
 }

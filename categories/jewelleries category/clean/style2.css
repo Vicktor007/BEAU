@@ -22,10 +22,10 @@ a {
 
 
 main {
-    height: 80vh;
+    height: 95vh;
     max-width: 900px;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin:  0  auto;
+    border: 1px solid transparent;
 }
 
 main, .cards {
@@ -36,7 +36,7 @@ main, .cards {
 
 .cards {
     justify-content: center;
-    margin-left: 5.5%;
+    width: 55%;
 }
 
 .big-card {
@@ -44,23 +44,23 @@ main, .cards {
     height: 70%;
 }
 
-.big-card, .small-card {
-    background-image: url(./images/dark.jfif);
-}
 
 .small-card {
     width: 30%;
     height: 20%;
 }
 
+.details {
+    width: 40%;
+}
+
 .details, .cards{
-    width: 45%;
     height: 100%;
-    border: 1px solid red;
+    border: 1px solid transparent;
 }
 
 .product-name, .product-price, .ratings {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -176,7 +176,7 @@ footer {
     main {
         justify-content: center;
     }
-    .small-card {
+    .dots {
         display: none;
     }
 

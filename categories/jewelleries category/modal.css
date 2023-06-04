@@ -113,13 +113,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid red;
+   
    }
 
    .modal-div {
     width: 90%;
     height: 10%;
-    border: 1px solid red;
+   
 }
 
    #modal {
@@ -146,10 +146,10 @@ body {
     cursor: pointer;
     font-size: 3rem;
     color: #ff0000;
-    border: 1px solid red;
+   
     position: absolute;
-    top: 27vh;
-    left: 90vw;
+    top: 25vh;
+    left: 92vw;
     display: block;
    }
 
