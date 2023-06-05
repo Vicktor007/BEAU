@@ -18,7 +18,7 @@ body {
 }
 
 
-.m1,.m2,.m3,.m4, .m {
+.m1,.m2,.m3,.m4, .m,.m5,.m6 {
     height: 100%;
     width: 100%;
     transition: all 0.15s ease; 
@@ -26,7 +26,7 @@ body {
 
 
 
-.m2,.m3,.m4 {
+.m2,.m3,.m5,.m6 {
     display: none;
 }
 
@@ -72,6 +72,15 @@ body {
     display: flex;
 }
 #img4:checked ~ .m4 {
+    margin-left: 0;
+}
+
+#img5:checked ~ .m5 {
+    margin-left: -100%;
+    display: flex;
+}
+
+#img6:checked ~ .m6 {
     margin-left: -100%;
     display: flex;
 }
