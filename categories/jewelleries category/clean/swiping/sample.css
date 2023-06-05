@@ -58,6 +58,8 @@ body {
 
 
 .dots label:hover {background: #fff;}
+
+
 #img1:checked ~ .m1 {
     margin-left: -0%;
 }
