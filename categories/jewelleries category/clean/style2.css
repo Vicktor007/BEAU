@@ -32,7 +32,6 @@ main, .cards {
     display: flex;
     flex-wrap: wrap;
     column-gap: 2%;
-    border: 1px solid red;
 }
 
 .cards {
@@ -58,7 +57,6 @@ main, .cards {
 .details, .cards{
     height: 100%;
     border: 1px solid transparent;
-    border: 1px solid red;
 }
 
 .product-name, .product-price, .ratings {

@@ -18,7 +18,8 @@ body {
 }
 
 
-.m1,.m2,.m3,.m4, .m,.m5,.m6 {
+.m1,.m2,.m3,.m4, .m,.m5,.m6,.m7,.m8,
+.m9,.m10,.m11,.m12,.m13,.m14,.m15,.m16,.m17,.m18 {
     height: 100%;
     width: 100%;
     transition: all 0.15s ease; 
@@ -26,7 +27,7 @@ body {
 
 
 
-.m2,.m3,.m5,.m6 {
+.m2,.m3,.m5,.m6,.m8,.m9,.m11,.m12,.m14,.m15,.m17,.m18 {
     display: none;
 }
 
@@ -39,7 +40,6 @@ body {
     color: white;
     margin-top: 10px;
     max-height: 800px;
-    border: 1px solid red;
 }
 
 
@@ -60,14 +60,17 @@ body {
 .dots label:hover {background: #fff;}
 
 
-#img1:checked ~ .m1, #img4:checked ~ .m4 {
+#img1:checked ~ .m1, #img4:checked ~ .m4, #img7:checked ~ .m7,
+ #img10:checked ~ .m10, #img13:checked ~ .m13, #img16:checked ~ .m16 {
     margin-left: -0%;
 }
-#img2:checked ~ .m2, #img5:checked ~ .m5 {
+#img2:checked ~ .m2, #img5:checked ~ .m5, #img8:checked ~ .m8,
+ #img11:checked ~ .m11, #img14:checked ~ .m14, #img17:checked ~ .m17 {
     margin-left: -100%;
     display: flex;
 }
-#img3:checked ~ .m3, #img6:checked ~ .m6  {
+#img3:checked ~ .m3, #img6:checked ~ .m6, #img9:checked ~ .m9, #img12:checked ~ .m12
+ #img15:checked ~ .m15, #img18:checked ~ .m18 {
     margin-left: -100%;
     display: flex;
 }
