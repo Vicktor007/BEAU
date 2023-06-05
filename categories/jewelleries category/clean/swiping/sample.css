@@ -60,31 +60,18 @@ body {
 .dots label:hover {background: #fff;}
 
 
-#img1:checked ~ .m1 {
+#img1:checked ~ .m1, #img4:checked ~ .m4 {
     margin-left: -0%;
 }
-#img2:checked ~ .m2 {
+#img2:checked ~ .m2, #img5:checked ~ .m5 {
     margin-left: -100%;
     display: flex;
 }
-#img3:checked ~ .m3 {
+#img3:checked ~ .m3, #img6:checked ~ .m6  {
     margin-left: -100%;
     display: flex;
 }
-#img4:checked ~ .m4 {
-    margin-left: 0;
-}
-
-#img5:checked ~ .m5 {
-    margin-left: -100%;
-    display: flex;
-}
-
-#img6:checked ~ .m6 {
-    margin-left: -100%;
-    display: flex;
-}
-
+ 
 
 
 @media (max-width: 600px) {
