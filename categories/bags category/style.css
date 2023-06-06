@@ -145,6 +145,11 @@ footer {
         width: 40%;
     }
 }
+@media (min-width: 500px) {
+    h3 {
+        top: 13vh;
+    }
+}
 
 
 
