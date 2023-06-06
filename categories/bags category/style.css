@@ -20,24 +20,28 @@ a {
 
 
 h3 {
-    height: 10vh;
+    height: 5vh;
     text-align: center;
     background-color: black;
     color: white;
     padding-top: 1.5%;
+    position: sticky;
+    top: 7vh;
 }
 
 main {
-    height: 620vh;
+    height: 625vh;
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     border: 1px solid red;
 }
 
-.bag-section {
+.products-section {
     width: 90%;
     height: 150vh;
     display: flex;
@@ -49,27 +53,27 @@ main {
     border: 1px solid red;
 }
 
-.bag-section h3 {
+.products-section h3 {
     height: 3%;
     width: 100%;
 }
 
-.bag-section div {
+.products-section div {
     width: 40%;
     height: 20%;
     border: 1px solid red;
 }
 
-.bag-section div img {
+.products-section div img {
     height: 80%;
     width: 100%;
 }
 
-.bag-section div p {
+.products-section div p {
     text-align: center;
 }
 
-.bag-section div p span {
+.products-section div p span {
     display: block;
 }
 
