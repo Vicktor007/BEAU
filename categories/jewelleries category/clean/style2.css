@@ -64,15 +64,6 @@ main, .cards {
     margin: 0 auto;
 }
 
-.quantity-control {
-    width: 50%;
-    height: 14%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 9.3%;
-    margin: 0 auto 0 auto;
-}
 
 .ratings .qty {
     height: 15%;
