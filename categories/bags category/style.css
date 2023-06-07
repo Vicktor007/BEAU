@@ -77,6 +77,27 @@ main {
     display: block;
 }
 
+
+.products-section .modal-div {
+    width: 40%;
+    height: 20%;
+    border: 1px solid red;
+}
+
+.products-section .modal-div .open-btn img {
+    height: 80%;
+    width: 100%;
+}
+
+.products-section .modal-div .open-btn p {
+    text-align: center;
+}
+
+.products-section .modal-div .open-btn p span {
+    display: block;
+}
+
+
 footer {
     height: 27vh;
     display: flex;

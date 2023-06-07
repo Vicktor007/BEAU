@@ -21,14 +21,14 @@ a {
 }
 
 
-main {
+.main-preview{
     height: 95vh;
     max-width: 900px;
     margin:  0  auto;
-    border: 1px solid transparent;
+    border: 1px solid red;
 }
 
-main, .cards {
+.main-preview, .cards {
     display: flex;
     flex-wrap: wrap;
     column-gap: 2%;
@@ -164,7 +164,7 @@ footer {
 
  @media (max-width: 800px) {
 
-    main {
+    .main-preview {
         justify-content: center;
     }
     .dots {
