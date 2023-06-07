@@ -82,8 +82,7 @@ main {
 .products-section .modal-div {
     width: 40%;
     height: 20%;
-    border: 1px solid red;
-    position: relative;
+    border: 1px solid yellowgreen;
 }
 
 
