@@ -1,0 +1,199 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+
+.main-preview{
+    height: 95vh;
+    max-width: 900px;
+    margin:  0  auto;
+    border: 1px solid red;
+}
+
+.main-preview, .cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+
+.cards {
+    justify-content: center;
+    width: 55%;
+}
+
+.big-card {
+    width: 100%;
+    height: 70%;
+}
+
+
+.small-card {
+    width: 30%;
+    height: 20%;
+}
+
+.details {
+    width: 40%;
+}
+
+.details, .cards{
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.product-name, .product-price, .ratings {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.ratings .qty {
+    height: 15%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+
+.details button {
+    width: 50%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.other-products {
+    height: 30vh;
+}
+
+h2 {
+    height: 13%;
+}
+
+.card {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3%;
+}
+
+    .the-products {
+      width: 22%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+.the-products img {
+width: 100%;
+height: 79%;
+}
+
+.the-products h5, .the-products p {
+    height: 11%;
+}
+
+h2, .the-products h5, .the-products p {
+    text-align: center;
+}
+
+footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: black;
+    color: white;
+}
+
+ .about, .shop, .support, .Newsletter {
+    width: 23%;
+    height: 80%;
+ }
+
+ footer h3 {
+    font-size: 15px;
+ }
+
+ footer a, footer p, footer input {
+    font-size: 10px;
+ }
+
+ .about p {
+    height: 87%;
+ }
+
+ .shop a, .support a {
+    display: block;
+    height: 15%;
+    color: white;
+ }
+
+ .Newsletter p, .Newsletter input {
+    margin-top: 5%;
+ }
+
+ .Newsletter .subscribe {
+    width: 50%;
+ }
+
+ @media (max-width: 800px) {
+
+    .main-preview {
+        justify-content: center;
+    }
+    .dots {
+        display: none;
+    }
+
+    .cards {
+        height: 50%;
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .details{
+        width: 90%;
+        height: 45%;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+    }
+
+    .ratings {
+        width: 100%;
+    }
+
+
+    .Newsletter input  {
+        width: 100%;
+    }
+ }
